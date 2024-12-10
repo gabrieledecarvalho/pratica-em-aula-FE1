@@ -1,0 +1,24 @@
+.header {
+    z-index: 90;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: inherit;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.header__titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: var(--fonte-titulo-peso);
+    font-size: 3em;
+    margin: 0;
+}
+
+.header__texto {
+    font-family: var(--fonte-paragrafo);
+    font-weight: var(--fonte-paragrafo-peso);
+    margin: 0;
+}

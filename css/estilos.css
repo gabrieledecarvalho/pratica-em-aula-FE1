@@ -1,0 +1,32 @@
+@import url(./normalize.css);
+@import url(./header.css);
+@import url(./principal.css);
+@import url(./padrao.css);
+@import url(./contato.css);
+@import url(./footer.css);
+@import url(./depoimentos.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --fonte-titulo: "Passion One";
+    --fonte-titulo-peso: 400;
+    --fonte-paragrafo: "Cormorant";
+    --fonte-paragrafo-peso: 600;
+    --cor-de-fundo: #f5f4f0;
+    --cor-primaria: #9bccbb;
+    --cor-secundaria: #2d2b31;
+    --cor-de-fundo-do-padrao: #ededed;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-paragrafo);
+    font-weight: var(--fonte-paragrafo-peso);
+    font-size: 20px;
+}
+
+h2, p {
+    margin: 0;
+}

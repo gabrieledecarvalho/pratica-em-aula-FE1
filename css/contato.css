@@ -1,0 +1,61 @@
+.contato {
+    text-align: center;
+    background-color: var(--cor-primaria);
+    padding: 25px 0;
+}
+
+.contato__titulo, .contato__texto {
+    margin-bottom: 10px;
+}
+
+.contato__formulario{
+    padding: 20px 15% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contato__formulario label {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contato__entrada {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+.nome-email {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .nome-email {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.rotulo-entrada {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contato__botao {
+    background-color: var(--cor-primaria);
+    border: 1px solid var(--cor-secundaria);
+    padding: 5px;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.contato__botao:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    transition: .3s ease-in-out;
+}

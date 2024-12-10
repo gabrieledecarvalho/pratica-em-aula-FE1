@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.lista-logos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logos-itens {
+    list-style-type: none;
+}
